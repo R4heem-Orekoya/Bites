@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+body{
+  overflow-x: hidden
+}
+.hero{
+  background-image: url('./assets/bg-pattern-intro-right-desktop.svg');
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position:  center;
+}
+.card,
+.form{
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+
+.swiper-pagination-bullet{
+  background: transparent;
+  border: 2px solid rgb(239 68 68);
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  aspect-ratio: 1;
+}
+.swiper-pagination-bullet-active{
+  width: 18px;
+  background: rgb(239 68 68);
+  border-radius: 8px;
+}
