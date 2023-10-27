@@ -6,7 +6,7 @@ import Chef from '../assets/chef.png'
 
 const Services = () => {
   return (
-    <section className='py-16 w-[1000px] max-w-[90%] mx-auto'>
+    <section id='services' className='py-16 w-[1000px] max-w-[90%] mx-auto'>
         <div className='text-center w-[450px] max-w-[100%] mx-auto'>
             <h3 className='text-lg font-bold text-yellow-400'>Our Services</h3>
             <h2 className='text-4xl max-md:text-3xl font-bold mt-4 leading-[1.4]'>We Offer people best Way to eat healthy food</h2>

@@ -14,7 +14,7 @@ import { Star } from 'lucide-react';
 
 const Testimonials = () => {
   return (
-    <section className='py-16 bg-stone-100'>
+    <section id='testimonials' className='py-16 bg-stone-100'>
         <div className='w-[min(1000px,90%)] mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-6'>
             <div>
                 <h3 className='text-xl font-bold text-yellow-400 mb-5'>Testimonials</h3>

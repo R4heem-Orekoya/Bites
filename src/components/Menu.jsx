@@ -17,7 +17,7 @@ const Menu = () => {
     const [currentTab, setCurrentTab] = useState('pizza');
     const Tab = tabs[currentTab]
   return (
-    <section className='py-16 w-[min(1000px,90%)] mx-auto grid grid-cols-2 max-md:grid-cols-1 gap-4'>
+    <section id='menu' className='py-16 w-[min(1000px,90%)] mx-auto grid grid-cols-2 max-md:grid-cols-1 gap-4'>
         <div>
             <h2 className='text-[2.8rem] max-md:text-3xl max-md:text-center max-sm:text-2xl font-extrabold'>Our Regular Menu</h2>
             <p className='text-lg font-medium my-4'>
